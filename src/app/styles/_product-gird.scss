@@ -1,0 +1,36 @@
+.product-grid-item {
+  transition: all .25s ease-out;
+  padding: 15px 15px 25px;
+  margin-bottom: 15px;
+  text-align: center;
+
+  &:hover {
+    background: #FAFAFA;
+
+    .title {
+      color: #2a62bc;
+    }
+  }
+
+  .description {
+    height: 40px;
+    color: #BBB;
+    font-size: 13px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .title,
+  .price {
+    transition: all .25s ease-out;
+    font-weight: bold;
+    padding: 5px 0;
+    display: block;
+  }
+
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+  }
+}
